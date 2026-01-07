@@ -1,0 +1,218 @@
+{
+  "Individual_Accident_Policy.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup:\n   - Class 1 (Includes Office, Admin, Doctors, Teachers, Students): 0.60 per mille\n   - Class 2 (Sales/Field Work): 0.90 per mille\n   - Class 3 (Manual Labor/Drivers): 1.50 per mille\n2. Base Formula: (Sum_Insured / 1000) * Rate\n3. Modifiers:\n   - Family Discount: Deduct 10% if covering > 3 members.\n   - Medical Extension: Add 20% to base premium if opted.\n4. Tax: Add 18% GST to the final total."
+  },
+  "Travel_Insurance_Policy.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup (Approximate based on Duration):\n   - 1-7 Days: Rs 417 (Silver), Rs 793 (Gold)\n   - 8-14 Days: Rs 594 (Silver), Rs 1038 (Gold)\n   - 15-21 Days: Rs 673 (Silver), Rs 1189 (Gold)\n   - 30 Days: Rs 925 (Silver), Rs 1667 (Gold), Rs 441 (Student)\n   - 45 Days: Rs 1450 (Silver), Rs 2200 (Gold), Rs 750 (Student)\n   - 90 Days: Rs 2800 (Silver), Rs 4100 (Gold), Rs 1188 (Student)\n2. Modifiers:\n   - Senior Citizen (>70 years): Add 50% Loading to Base Rate.\n3. Tax: Add 18% GST to the final total."
+  },
+  "Pradhan_Mantri_Suraksha_Bima_Yojana.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Rate: The premium is a fixed flat rate regardless of age or income.\n2. Amount: Rs 20 per member per year.\n3. Tax: No additional tax (Service Tax exempt/included)."
+  },
+  "Senior_Citizen_Health_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual) for 3 Lakhs Sum Insured (Benchmark):\n   - Age 60-65: Rs 11,350\n   - Age 66-70: Rs 13,100\n   - Age 71-75: Rs 15,500\n   - Age > 75: Rs 18,000\n2. Sum Insured Adjustment:\n   - For 1 Lakh SI: Multiply Benchmark by 0.4\n   - For 5 Lakhs SI: Multiply Benchmark by 1.6\n3. Tax: Add 18% GST to the final total."
+  },
+  "Hospital_Cash_Insurance_Policy.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual for 30 Days coverage):\n   - Age 18-35: Rs 650 (Rs 500/day plan), Rs 1200 (Rs 1000/day plan)\n   - Age 36-45: Rs 850 (Rs 500/day plan), Rs 1600 (Rs 1000/day plan)\n   - Age 46-55: Rs 1200 (Rs 500/day plan), Rs 2300 (Rs 1000/day plan)\n   - Age 56-65: Rs 1800 (Rs 500/day plan), Rs 3500 (Rs 1000/day plan)\n2. Duration Multiplier:\n   - For 60 Days coverage option: Multiply Base Premium by 1.5.\n3. Tax: Add 18% GST to the final total."
+  },
+  "Janta_Personal_Accident_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup:\n   - Normal Risk (Group 1): Rs 100 per Lakh Sum Insured\n   - High Risk (Group 2): Rs 150 per Lakh Sum Insured\n   - Very High Risk (Group 3): Rs 225 per Lakh Sum Insured\n2. Formula: (Sum_Insured / 100000) * Rate\n3. Modifiers:\n   - Group Discount: Deduct 10% if policy is for >100 members.\n4. Tax: Add 18% GST to the final total."
+  },
+  "Complete_Healthcare_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual) for 5 Lakhs Sum Insured (Essential Plan):\n   - Age 18-25: Rs 4,200\n   - Age 26-35: Rs 5,800\n   - Age 36-45: Rs 8,200\n   - Age 46-55: Rs 11,000\n2. Sum Insured Adjustment:\n   - For 3 Lakhs SI: Deduct approx Rs 1,500 from Base.\n   - For 10 Lakhs SI: Add approx Rs 2,500 to Base.\n3. Family Floater Calculation:\n   - Spouse: Add 80% of Base Premium.\n   - Child: Add 50% of Base Premium per child.\n4. Add-ons:\n   - Critical Illness: Add Rs 1,500 per person.\n5. Tax: Add 18% GST to the final total."
+  },
+  "A_Plus_Health_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual) for 5 Lakhs Sum Insured:\n   - Age 18-25: Rs 4,200\n   - Age 26-35: Rs 4,800\n   - Age 36-45: Rs 5,800\n   - Age 46-55: Rs 8,200\n2. Deductible Factor: These rates assume a standard deductible of Rs 3 Lakhs. Higher deductibles reduce premium.\n3. Tax: Add 18% GST to the final total."
+  },
+  "Arogya_Sanjeevani_Policy.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Standard Product Rates) for 5 Lakhs SI:\n   - Age 18-25: Rs 4,200\n   - Age 26-35: Rs 4,800\n   - Age 36-45: Rs 5,800\n   - Age 46-55: Rs 8,200\n2. Sum Insured Adjustment:\n   - For 3 Lakhs SI: Deduct Rs 1,000 from Base.\n   - For 4 Lakhs SI: Deduct Rs 600 from Base.\n3. Tax: Add 18% GST to the final total."
+  },
+  "Super_Health_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual) for 5 Lakhs Sum Insured (Zone 1):\n   - Age 18-25: Rs 6,500\n   - Age 26-35: Rs 7,200\n   - Age 36-45: Rs 9,500\n   - Age 46-55: Rs 13,500\n2. Zone Discounts:\n   - Zone 2 (Tier 2 cities): Deduct 10%.\n   - Zone 3 (Rest of India): Deduct 15%.\n3. Sum Insured Multipliers:\n   - For 10 Lakhs SI: Multiply Base by 1.2\n   - For 20 Lakhs SI: Multiply Base by 1.6\n4. Tax: Add 18% GST to the final total."
+  },
+  "Saral_Suraksha_Bima_Micro.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Rate Formula: Rs 75 per Rs 1 Lakh Sum Insured.\n2. Calculation:\n   - 1 Lakh SI: Rs 75\n   - 2 Lakhs SI: Rs 150\n   - 5 Lakhs SI: Rs 375\n3. Tax: Add 18% GST to the final total."
+  },
+  "Loan_Secure_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate per Mille (depends on age):\n   - Age 18-35: 1.5 per mille\n   - Age 36-45: 2.5 per mille\n   - Age 46-55: 4.0 per mille\n2. Tenure Factor (Discounted Multiplier):\n   - 1 Year: Factor 1.0\n   - 5 Years: Factor 4.2\n   - 10 Years: Factor 7.5\n3. Formula: (Loan_Amount / 1000) * Rate_per_Mille * Tenure_Factor\n4. Tax: Add 18% GST to the final total."
+  },
+  "Standalone_Motor_TP_Private_Car.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Third Party (TP) Base Premium:\n   - Engine < 1000 cc: Rs 2,094\n   - Engine 1000 - 1500 cc: Rs 3,221\n   - Engine > 1500 cc: Rs 7,897\n2. Mandatory PA Cover (Owner-Driver): Add Rs 325.\n3. Formula: Base_TP + PA_Cover\n4. Tax: Add 18% GST to the final total."
+  },
+  "Standalone_Motor_TP_Two_Wheeler.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Third Party (TP) Base Premium:\n   - Engine < 75 cc: Rs 482\n   - Engine 75 - 150 cc: Rs 752\n   - Engine 150 - 350 cc: Rs 1,366\n   - Engine > 350 cc: Rs 2,804\n2. Mandatory PA Cover (Owner-Driver): Add Rs 350.\n3. Formula: Base_TP + PA_Cover\n4. Tax: Add 18% GST to the final total."
+  },
+  "Standalone_OD_Two_Wheeler.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Determine IDV: Use User specified IDV or default (e.g., Rs 50,000).\n2. OD Rate Lookup based on Vehicle Age:\n   - 0-2 Years: 1.7% of IDV\n   - 2-5 Years: 1.9% of IDV\n   - > 5 Years: 2.1% of IDV\n3. Base OD Premium: IDV * Rate\n4. No Claim Bonus (NCB): Deduct 20% if user has 1 claim-free year, 25% for 2 years, up to 50%.\n5. Add-ons: Add 0.5% of IDV for Zero Depreciation if requested.\n6. Tax: Add 18% GST to the final total."
+  },
+  "Motor_Trade_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Basis: Wages or Turnover.\n2. Rate Lookup:\n   - Wage Roll Basis: 4.0 per mille on Total Wages.\n   - Turnover Basis: 1.5 per mille on Turnover.\n3. Public Liability Add-on: Add 25% of the base premium calculated above.\n4. Formula: (Basis_Amount / 1000) * Rate\n5. Tax: Add 18% GST to the final total."
+  },
+  "Motor_Miscellaneous_Vehicle.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Own Damage (OD) Premium: IDV * Rate\n   - Ambulance: 1.2%\n   - Mobile Crane: 1.5%\n   - Excavator: 1.8%\n2. Third Party (TP) Fixed Premium:\n   - Ambulance: Rs 2,500\n   - Mobile Crane: Rs 4,500\n   - Excavator: Rs 5,500\n3. Formula: OD_Premium + TP_Premium\n4. Tax: Add 18% GST to the final total."
+  },
+  "Motor_Goods_Carrying_Vehicle.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Own Damage (OD) Premium: IDV * Rate\n   - < 7500 Kg GVW: 1.4%\n   - 7500 - 12000 Kg GVW: 1.5%\n   - 12000 - 20000 Kg GVW: 1.6%\n   - > 20000 Kg GVW: 1.7%\n2. Third Party (TP) Premium:\n   - < 7500 Kg: Rs 15,000\n   - 7500 - 12000 Kg: Rs 26,000\n   - 12000 - 20000 Kg: Rs 35,000\n   - > 20000 Kg: Rs 44,000\n3. Formula: OD_Premium + TP_Premium\n4. Tax: Add 18% GST to the final total."
+  },
+  "TP_Two_Wheeler_5_Years.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Calculate 5-Year TP Premium:\n   - < 75 cc: Rs 482 * 5 = Rs 2,410\n   - 75 - 150 cc: Rs 752 * 5 = Rs 3,760\n   - 150 - 350 cc: Rs 1,366 * 5 = Rs 6,830\n   - > 350 cc: Rs 2,804 * 5 = Rs 14,020\n2. Calculate 5-Year PA Cover: Rs 350 * 5 = Rs 1,750.\n3. Formula: Total_TP + Total_PA\n4. Tax: Add 18% GST to the final total."
+  },
+  "TP_Private_Car_3_Years.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Calculate 3-Year TP Premium:\n   - < 1000 cc: Rs 2,094 * 3 = Rs 6,282\n   - 1000 - 1500 cc: Rs 3,221 * 3 = Rs 9,663\n   - > 1500 cc: Rs 7,897 * 3 = Rs 23,691\n2. Calculate 3-Year PA Cover: Rs 325 * 3 = Rs 975.\n3. Formula: Total_TP + Total_PA\n4. Tax: Add 18% GST to the final total."
+  },
+  "Compulsory_PA_Owner_Driver.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Annual Premium based on Vehicle Type:\n   - Two Wheeler Owner: Rs 350\n   - Private Car Owner: Rs 325\n   - Commercial Vehicle Owner: Rs 375\n2. Sum Insured: Fixed at Rs 15 Lakhs (Do not calculate rate on SI).\n3. Tax: Add 18% GST to the final total."
+  },
+  "Two_Wheeler_Long_Term_Package.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Select Tenure: 2 Years or 3 Years.\n2. Own Damage (OD) Calculation: IDV * Rate * Tenure\n   - < 75 cc: 1.5%\n   - 75 - 150 cc: 1.6%\n   - 150 - 350 cc: 1.7%\n3. Third Party (TP) Calculation: Annual_TP * Tenure\n   - < 75 cc: Rs 482\n   - 75 - 150 cc: Rs 752\n   - 150 - 350 cc: Rs 1,366\n4. Long Term Discount on OD Portion:\n   - For 2 Years: Deduct 5% from OD Premium.\n   - For 3 Years: Deduct 10% from OD Premium.\n5. Formula: (Discounted_OD) + (TP_Total) + (PA Rs 350 * Tenure)\n6. Tax: Add 18% GST to the final total."
+  },
+  "third-party-long-two-wheeler-liability-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Select Tenure: 2 Years or 3 Years.\n2. TP Rate Lookup (Annual):\n   - 75 - 150 cc: Rs 752\n   - 150 - 350 cc: Rs 1,366\n   - > 350 cc: Rs 2,804\n3. PA Rate Lookup (Annual): Rs 350.\n4. Formula: (Annual_TP * Tenure) + (Annual_PA * Tenure)\n5. Tax: Add 18% GST to the final total."
+  },
+  "cattle-insurance-brochure.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Animal Type:\n   - Milch Cow / Buffalo: 4.0% of Market Value\n   - Bullock: 3.5% of Market Value\n2. Formula: Market_Value * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "poultry-insurance-policy-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Bird Type:\n   - Broilers (Batch): 1.5% of Flock Value\n   - Layers (Annual): 3.5% of Flock Value\n   - Parent Stock: 5.0% of Flock Value\n2. Formula: Total_Flock_Value * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "tea-crop-insurance-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup per Mille:\n   - Standard Risk: 2.0 per mille\n   - High Risk Zone: 3.5 per mille\n2. Formula: (Annual_Crop_Value / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "brackish-water-prawn-insurance-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Risk:\n   - Standard: 6.0% of Input Cost\n   - Disease Prone Area: 8.0% of Input Cost\n2. Formula: Input_Cost * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "inland-fresh-water-fish-insurance-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Stock:\n   - Carp / Rohu: 4.0% of Stock Value\n   - Catfish: 5.0% of Stock Value\n2. Formula: Stock_Value * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "plantation-insurance-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Crop:\n   - Eucalyptus / Poplar: 1.25% of Input Cost\n   - Teak / Rubber: 1.50% of Input Cost\n2. Formula: Input_Cost * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "plantation-insurance-sales-literature (1).pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Horticulture Crop:\n   - Mango / Apple: 3.0% of Cultivation Cost\n   - Flowers: 4.0% of Cultivation Cost\n   - Grapes / Banana: 5.0% of Cultivation Cost\n2. Formula: Cultivation_Cost * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "farmers-package-policy-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Section-wise Calculation:\n   - Dwelling (Fire): Value * 0.0005 (0.5 per mille)\n   - Cattle: Market Value * 3.5%\n   - Pump Set: Value * 1.5%\n   - Personal Accident: Flat Rs 100\n2. Subtotal: Sum of premiums from chosen sections.\n3. Package Discount: Multiply Subtotal by 0.90 (10% discount).\n4. Tax: Add 18% GST to the discounted total."
+  },
+  "weather-insurance-policy-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Actuarial Rate Lookup:\n   - Kharif Season (Monsoon): 10.0% of Sum Insured\n   - Rabi Season (Winter): 8.0% of Sum Insured\n2. Formula: Sum_Insured * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "householder-insurance-policy-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Building (Fire) Section: Building Value * 0.0003 (0.30 per mille)\n2. Contents (Burglary) Section: Contents Value * 0.002 (2.00 per mille)\n3. Jewelry (All Risk) Section: Jewelry Value * 0.01 (10.00 per mille)\n4. Formula: Sum of above sections.\n5. Tax: Add 18% GST to the final total."
+  },
+  "burglary-insurance-policy-propectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup per Mille:\n   - Stock-in-trade: 4.00 per mille\n   - Business Furniture: 3.00 per mille\n   - Cash in Safe: 2.50 per mille\n2. Formula: (Asset_Value / 1000) * Rate\n3. Discounts:\n   - Deduct 5% for CCTV.\n   - Deduct 10% for Security Guard.\n4. Tax: Add 18% GST to the final total."
+  },
+  "all-risk-insurance-policy-sales-literature.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Item:\n   - Jewelry: 1.0% of Value\n   - Cameras: 1.5% of Value\n   - Laptops / Mobiles: 2.0% of Value\n2. Formula: Item_Value * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "industrial-all-risk-insurance-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Tariff Rate per Mille based on Industry:\n   - Engineering / Metal: 1.00 per mille\n   - Storage / Warehouse: 1.20 per mille\n   - Textile / Paper: 1.50 per mille\n2. Formula: (Total_Assets / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup per Mille:\n   - Office / Shop: 0.50 per mille\n   - Godown: 1.20 per mille\n   - Factory (Non-Hazardous): 1.50 per mille\n2. Earthquake Add-on: Add 0.10 per mille to the rate.\n3. Formula: (Asset_Value / 1000) * (Rate + EQ_Rate)\n4. Tax: Add 18% GST to the final total."
+  },
+  "consequential-loss-fire-insurance-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Prerequisite: Requires a base Fire rate (assume 1.50 per mille for calculation).\n2. Multiplier based on Indemnity Period:\n   - 6 Months: 125% of Fire Rate\n   - 12 Months: 150% of Fire Rate\n   - 18 Months: 175% of Fire Rate\n3. Formula: (Annual_Gross_Profit / 1000) * (1.50 * Multiplier)\n4. Tax: Add 18% GST to the final total."
+  },
+  "standalone-terrorism-insurance-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Pool Rate per Mille:\n   - Residential: 0.20 per mille\n   - Non-Industrial / Commercial: 0.30 per mille\n   - Industrial: 0.40 per mille\n2. Formula: (Total_Sum_Insured / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "unified-package-insurance-scheme-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Farmer Share Calculation:\n   - Crop Section (Kharif): 2.0% of SI\n   - Crop Section (Rabi): 1.5% of SI\n   - Personal Accident: Rs 12 Flat\n   - Life Insurance (PMJJBY): Rs 330 Flat\n2. Formula: Crop_Share + PA_Share + Life_Share\n3. Note: The rest is paid by Govt Subsidy. Tax is usually exempt for farmer share."
+  },
+  "comprehensive-operational-large-risk-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Indicative Reinsurance Rate per Mille:\n   - Power Plant: 0.80 per mille\n   - Infrastructure: 0.90 per mille\n   - Steel Plant: 1.20 per mille\n2. Formula: (Total_SI / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "bharat-griha-raksha-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Long Term Rate (10 Years):\n   - Rate: 0.25 per mille (Very Low for long term)\n2. Formula: (Building_SI / 1000) * 0.25\n3. Note: Contents cover up to 20% of Building SI is FREE.\n4. Tax: Add 18% GST to the final total."
+  },
+  "money-insurance-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Money in Transit Section: (Limit / 1000) * 1.50\n2. Money in Safe Section: (Limit / 1000) * 2.00\n3. Formula: Sum of both sections.\n4. Tax: Add 18% GST to the final total."
+  },
+  "surety-bond-insurance-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Credit Rating:\n   - AAA / AA: 1.5% of Bond Amount\n   - A / BBB: 2.5% of Bond Amount\n   - BB or lower: 3.5% of Bond Amount\n2. Formula: Bond_Amount * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "trade-credit-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Buyer Risk:\n   - Low Risk (OECD): 0.25% of Turnover\n   - Medium Risk: 0.45% of Turnover\n   - High Risk: 0.70% of Turnover\n2. Formula: Insurable_Turnover * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "bankers-indemnity-insurance-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Basic Premium: Rs 50,000 (Small Bank Estimate)\n2. Branch Loading: Rs 5,000 per branch.\n3. Formula: 50000 + (Number_of_Branches * 5000)\n4. Tax: Add 18% GST to the final total."
+  },
+  "commercial-crime-insurance-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Revenue:\n   - < 50 Cr Revenue: 0.50% of Limit of Liability\n   - 50 - 500 Cr Revenue: 0.35% of Limit of Liability\n   - > 500 Cr Revenue: 0.25% of Limit of Liability\n2. Formula: Limit_of_Liability * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "fidelity-guarantee-insurance-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup per Mille:\n   - Cashiers / Storekeepers: 10.00 per mille\n   - Clerical Staff: 5.00 per mille\n2. Formula: (Guarantee_Limit / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "eye-wear-insurance-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Value:\n   - Up to Rs 10,000: 4.0% of Invoice Value\n   - > Rs 10,000: 3.0% of Invoice Value\n2. Formula: Invoice_Value * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "jewellers-comprehensive-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Section Rates per Mille:\n   - Stock in Showroom: 1.25 per mille\n   - Stock in Transit: 0.75 per mille\n2. Formula: (Stock_Value / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "business-shield-policy-laghu-udyam-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup per Mille:\n   - Office / Retail: 1.00 per mille\n   - Light Engineering: 1.50 per mille\n   - Chemical / Plastic: 2.50 per mille\n2. Formula: (Total_Assets / 1000) * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "pet-assure-policy-prospectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Pet Age:\n   - 0-1 Year: 3.5% (Small Breed), 4.5% (Large Breed)\n   - 1-4 Years: 4.0% (Small), 5.0% (Large)\n   - 5-8 Years: 5.5% (Small), 6.5% (Large)\n   - > 8 Years: 7.0% (Small), 8.5% (Large)\n2. Formula: Pet_Market_Value * Rate\n3. Tax: Add 18% GST to the final total."
+  },
+  "digital-protection-propectus.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Annual Premium Lookup:\n   - Limit Rs 50,000: Rs 500\n   - Limit Rs 1 Lakh: Rs 900\n   - Limit Rs 2 Lakhs: Rs 1,700\n   - Limit Rs 5 Lakhs: Rs 4,000\n2. Tax: Add 18% GST to the final total."
+  },
+  "accident-motor-linked.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup based on Vehicle Type:\n   - Two-Wheeler Owner: 0.45 per mille\n   - Four-Wheeler Owner: 0.35 per mille\n2. Base Formula: (Sum_Insured / 1000) * Rate\n3. Modifiers:\n   - Add-on: Daily Hospital Cash: Add Rs 150 to base premium.\n4. Tax: Add 18% GST to the final total."
+  },
+  "accident-only-pet-shield.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup based on Animal Species:\n   - Dog: 1.2% of Sum Insured\n   - Cat: 1.0% of Sum Insured\n2. Formula: Sum_Insured * Rate\n3. Modifiers:\n   - Senior Loading: Add 15% to premium if pet is > 8 years old.\n4. Tax: Add 18% GST to the final total."
+  },
+  "accident-senior-citizen.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup based on Age Band:\n   - 60-70 Years: 1.20 per mille\n   - 71-80 Years: 1.60 per mille\n2. Base Formula: (Sum_Insured / 1000) * Rate\n3. Modifiers:\n   - Deduct 5% if renewal is claim-free.\n4. Tax: Add 18% GST to the final total."
+  },
+  "accident-student.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Rate per Student:\n   - School Student (Age 5-17): Rs 120 per Lakh SI\n   - College Student (Age 18-25): Rs 150 per Lakh SI\n2. Formula: (Sum_Insured / 100000) * Flat_Rate\n3. Modifiers:\n   - Institutional Discount: Deduct 15% for group bookings > 50 students.\n4. Tax: Add 18% GST to the final total."
+  },
+  "accident-travel.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup based on Duration:\n   - 1-15 Days: Rs 250\n   - 16-30 Days: Rs 450\n   - 31-90 Days: Rs 1,200\n   - Annual Multi-trip: Rs 3,500\n2. Modifiers:\n   - Senior Citizen (>65 years): Add 25% Loading.\n3. Tax: Add 18% GST to the final total."
+  },
+  "accident-adventure-sports.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Risk Category:\n   - Category A (Trekking/Cycling): 2.50 per mille\n   - Category B (Skydiving/Racing): 5.00 per mille\n2. Formula: (Sum_Insured / 1000) * Rate\n3. Modifiers:\n   - Short Term (Event based): Multiply Annual Rate by 0.30.\n4. Tax: Add 18% GST to the final total."
+  },
+  "accident-disability-income.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Rate Lookup per mille on Annual Income:\n   - Risk Class 1: 1.8 per mille\n   - Risk Class 2: 2.2 per mille\n   - Risk Class 3: 3.5 per mille\n2. Formula: (Annual_Income / 1000) * Rate\n3. Modifiers:\n   - Deduct 10% for salaried individuals with employer tie-ups.\n4. Tax: Add 18% GST to the final total."
+  },
+  "accident-group.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup per member per Lakh SI:\n   - Group Size 5-50: Rs 85\n   - Group Size 51-200: Rs 70\n   - Group Size > 200: Rs 55\n2. Formula: (Group_Size * Sum_Insured / 100000) * Rate\n3. Modifiers:\n   - High Risk Occupation Loading: Add 30% to total.\n4. Tax: Add 18% GST to the final total."
+  },
+  "animal-veterinary-health-insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual for 1 Lakh SI):\n   - Age 3m - 2 Years: Rs 3,200\n   - Age 3 - 5 Years: Rs 4,500\n   - Age 6 - 8 Years: Rs 6,800\n2. Breed Loading:\n   - Small/Medium Breeds: Factor 1.0\n   - Large/Giant Breeds: Factor 1.3\n3. Formula: Base_Premium * Breed_Factor\n4. Tax: Add 18% GST to the final total."
+  },
+  "breeders-maternity-cover.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Rate per Registered Bitch:\n   - Age 2-4 Years: Rs 2,500\n   - Age 5-6 Years: Rs 3,800\n2. Formula: Flat_Rate * Number_of_Animals\n3. Modifiers:\n   - Multi-Animal Discount: Deduct 10% for > 5 animals.\n4. Tax: Add 18% GST to the final total."
+  },
+  "Critical_Illness_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium Lookup (Annual for 10 Lakhs SI):\n   - Age 18-30: Rs 2,800\n   - Age 31-45: Rs 5,400\n   - Age 46-60: Rs 12,500\n2. Sum Insured Multipliers:\n   - 25 Lakhs SI: Multiply Base by 2.2\n   - 50 Lakhs SI: Multiply Base by 4.0\n3. Tax: Add 18% GST to the final total."
+  },
+  "Day_Care_Procedure_Health_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Annual Premium based on Plan:\n   - Basic (Rs 50k): Rs 850\n   - Enhanced (Rs 1L): Rs 1,400\n   - Premium (Rs 2L): Rs 2,500\n2. Modifiers:\n   - Family Floater (1+1): Multiply Plan Rate by 1.7.\n3. Tax: Add 18% GST to the final total."
+  },
+  "exotic-avian-pet-insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup based on Species Rarity:\n   - Common (e.g. Budgies): 3.0% of Value\n   - Exotic (e.g. Macaws/Turtles): 5.5% of Value\n2. Formula: Agreed_Value * Rate\n3. Modifiers:\n   - Habitat Cover: Add Rs 500 for cage/tank protection.\n4. Tax: Add 18% GST to the final total."
+  },
+  "Maternity_Health_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium based on Age:\n   - Age 18-30: Rs 6,500\n   - Age 31-40: Rs 9,000\n   - Age 41-45: Rs 13,500\n2. Plan Adjustment:\n   - Comprehensive Plan: Add 40% to Base Premium.\n3. Tax: Add 18% GST to the final total."
+  },
+  "Outpatient_Health_Insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Premium based on Benefit Wallet:\n   - Rs 15,000 Wallet: Rs 4,500\n   - Rs 25,000 Wallet: Rs 7,200\n   - Rs 50,000 Wallet: Rs 14,000\n2. Tax: Add 18% GST to the final total."
+  },
+  "pet-mortality-insurance.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Rate Lookup:\n   - Purebred/Pedigree: 2.5% of Market Value\n   - Mixed Breed: 3.5% of Market Value\n2. Formula: Market_Value * Rate\n3. Modifiers:\n   - Age Loading: Add 10% for pets > 5 years old.\n4. Tax: Add 18% GST to the final total."
+  },
+  "pet-third-party-liability.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Premium based on Limit of Liability:\n   - Rs 5 Lakhs Limit: Rs 800\n   - Rs 10 Lakhs Limit: Rs 1,500\n   - Rs 25 Lakhs Limit: Rs 3,200\n2. Breed Modifier:\n   - Aggressive Breeds (as per list): Add 25% Loading.\n3. Tax: Add 18% GST to the final total."
+  },
+  "pet-wellness-preventive.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Flat Subscription Cost:\n   - Annual Wallet (Rs 15k): Rs 3,500\n2. Modifiers:\n   - Multi-Pet Discount: Deduct 10% for the second pet.\n3. Tax: Add 18% GST to the final total."
+  },
+  "senior-pet-lifetime-care.pdf": {
+    "rule_text": "PREMIUM CALCULATION RULES:\n1. Base Premium for 7+ Year Old Pets:\n   - Age 7-9 Years: Rs 5,800\n   - Age 10-12 Years: Rs 8,500\n   - Age 13-15 Years: Rs 12,000\n2. Modifiers:\n   - Chronic Disease Waiver: Add 20% to cover known non-pre-existing age issues.\n3. Tax: Add 18% GST to the final total."
+  }
+}
