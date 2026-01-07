@@ -6,9 +6,7 @@ from agents import router_node, collector_node, analyst_node, sales_node
 
 # --- 2. CONDITIONAL LOGIC ---
 def decide_next_node(state: AgentState):
-    """
-    Reads the 'next_step' from state and returns the node name.
-    """
+    
     if state["next_step"] == "router":
         return "router"
     return state["next_step"]
@@ -48,5 +46,6 @@ def create_graph():
         return END
 
     workflow.add_conditional_edges("sales", route_sales, {"analyst": "analyst", END: END})
+
 
     return workflow.compile()
