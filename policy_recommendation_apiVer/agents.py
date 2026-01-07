@@ -27,9 +27,7 @@ def load_rules():
 POLICY_RULES = load_rules()
 
 def get_logic_for_file(filename):
-    """
-    Robustly finds the rule even if path or extension differs slightly.
-    """
+    
     # 1. Try exact match
     if filename in POLICY_RULES:
         return POLICY_RULES[filename]['rule_text']
@@ -42,9 +40,7 @@ def get_logic_for_file(filename):
     return None
 
 def clean_and_parse_json(response_text):
-    """
-    Strips markdown code blocks and finds the JSON object.
-    """
+    
     try:
         # 1. Remove Markdown code fences (e.g., ```json ... ```)
         text = re.sub(r"```json", "", response_text, flags=re.IGNORECASE)
@@ -61,11 +57,6 @@ def clean_and_parse_json(response_text):
 
 # --- HELPER: INTENT CLASSIFIER ---
 def classify_intent_and_extract(user_text, current_category, potential_fields=None, is_confirming_category=False):
-    """
-    Decides if the user is:
-    1. Switching Category (e.g., "Actually, I need farm insurance")
-    2. Answering a Question (e.g., "I am 30 years old")
-    """
     
     valid_broad_cats = ", ".join(get_broad_category_options())
 
@@ -428,9 +419,7 @@ def analyst_node(state: AgentState):
     }
 
 def sales_node(state: AgentState):
-    """
-    Handles Q&A AFTER a policy has been recommended.
-    """
+    
     last_user_msg = state["messages"][-1][1]
     context = state.get("policy_context", "No specific policy context available.")
     
@@ -486,4 +475,5 @@ def sales_node(state: AgentState):
     """
     response = llm.invoke(prompt)
     
+
     return {"messages": [("ai", response.content)]}
