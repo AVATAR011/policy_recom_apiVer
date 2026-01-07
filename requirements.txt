@@ -1,0 +1,19 @@
+
+streamlit
+langgraph
+langchain
+langchain-community
+langchain-google-genai
+python-dotenv
+
+pypdf
+
+
+chromadb
+sentence-transformers
+
+# If you still face issues, install packages one by one:
+# pip install streamlit
+# pip install langgraph
+# pip install langchain
+# etc.
