@@ -9,9 +9,7 @@ from langchain_community.vectorstores import Chroma
 CATEGORY_REGEX = r"(?:Category|Type|Class)\s*[:\-]\s*([a-zA-Z\s]+)"
 
 def extract_category_from_text(text):
-    """
-    Scans the text to find the 'Category: X' field.
-    """
+
     match = re.search(CATEGORY_REGEX, text, re.IGNORECASE)
     if match:
         # Found it! Clean up the result (e.g., "Health " -> "Health")
@@ -19,10 +17,7 @@ def extract_category_from_text(text):
     return "General" # Fallback if field not found
 
 def load_policies_from_folder(folder_path="policies"):
-    """
-    Scans the specified folder for .pdf and .txt files, loads them, 
-    and creates a Persistent VectorStore.
-    """
+
     # 1. Get all file paths
     pdf_files = glob.glob(os.path.join(folder_path, "*.pdf"))
     txt_files = glob.glob(os.path.join(folder_path, "*.txt"))
@@ -81,9 +76,7 @@ def load_policies_from_folder(folder_path="policies"):
     return None, "Failed to process documents."
 
 def save_learned_case(profile, chosen_policy_name, reason, folder="policies"):
-    """
-    Appends a successful recommendation to a text file.
-    """
+    
     file_path = os.path.join(folder, "learned_data.txt")
     
     entry = f"""
@@ -98,4 +91,5 @@ def save_learned_case(profile, chosen_policy_name, reason, folder="policies"):
     with open(file_path, "a") as f:
         f.write(entry)
         
+
     print(f"✅ Learned new case: {chosen_policy_name}")
