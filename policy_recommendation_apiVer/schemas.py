@@ -114,20 +114,13 @@ QUESTION_SCHEMAS = {
 # --- 3. HELPER FUNCTIONS ---
 
 def get_broad_category_options():
-    """Returns: ['Health', 'Accident', 'Vehicle', 'Pet', 'Agriculture', 'Property', 'Financial', 'Specialized']"""
     return list(CATEGORY_MAPPING.keys())
 
 def get_specific_categories_for_broad(broad_category):
     return CATEGORY_MAPPING.get(broad_category, [])
 
 def get_required_fields(category_input):
-    """
-    Robust Lookup Strategy:
-    1. Direct Match: "Health" -> matches key "Health"
-    2. Fuzzy Match: "Health Insurance" -> matches key "Health"
-    3. Reverse Match: "Human - Health Insurance" -> matches parent "Health"
-    4. Fallback: Returns "General"
-    """
+   
     if not category_input:
         return QUESTION_SCHEMAS["General"]
     
@@ -147,4 +140,5 @@ def get_required_fields(category_input):
             return QUESTION_SCHEMAS.get(broad_key, QUESTION_SCHEMAS["General"])
     
     # STRATEGY 4: Fallback
+
     return QUESTION_SCHEMAS["General"]
