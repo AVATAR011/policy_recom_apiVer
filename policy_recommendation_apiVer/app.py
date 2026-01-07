@@ -5,19 +5,15 @@ from workflow import create_graph
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Modular Policy Bot", layout="wide")
-st.title("🤖 Modular Multi-Agent Bot")
+st.title("Policy Recommendation System")
 
 # --- SESSION STATE ---
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {"role": "assistant", "content": "Hello! I can help you with Health, Vehicle, Pet, and Property insurance. How can I assist you today?"}
     ]
-# if "user_profile" not in st.session_state:
-#     st.session_state.user_profile = {}
 if "vectorstore" not in st.session_state:
     st.session_state.vectorstore = None
-# if "uploader_key" not in st.session_state:
-#     st.session_state.uploader_key = 0
 if "recommended_plan" not in st.session_state:
     st.session_state.recommended_plan = None  # <--- ADD THIS
 if "policy_context" not in st.session_state:
@@ -61,14 +57,6 @@ with st.sidebar:
     st.write(f"Category: {st.session_state.current_category}")
     st.write(f"Waiting For: {st.session_state.last_asked_field}")
     st.json(st.session_state.collected_data)
-
-# --- AUTO-LOAD ON STARTUP ---
-# If DB is empty, try loading automatically once
-# if st.session_state.vectorstore is None:
-#     vs, msg = load_policies_from_folder(policy_folder)
-#     if vs:
-#         st.session_state.vectorstore = vs
-#         print("Auto-loaded policies on startup.")
         
 # --- CHAT LOOP ---
 for msg in st.session_state.messages:
@@ -138,4 +126,5 @@ if user_input:
                     st.markdown(fallback_msg)
             # st.rerun()
         except Exception as e:
+
             st.error(f"An error occurred: {e}")
